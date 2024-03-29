@@ -1,0 +1,12 @@
+#ifndef HOLA_DLL
+#define HOLA_DLL
+
+#include <iostream>
+using namespace std;
+
+void hola(){
+
+    cout<< "Hola que tal"<<endl;
+}
+
+#endif // HOLA_DLL
