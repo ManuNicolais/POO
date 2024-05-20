@@ -1,0 +1,3 @@
+En el login
+Agregar la siguiente característica a Login: Si el usuario falla 3 veces la clave, bloquear por 5 minutos a ese usuario.
+en este codigo, se bloquea el usuario por 10 segundos, se puede modificar
