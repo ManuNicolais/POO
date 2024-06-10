@@ -1,0 +1,23 @@
+cd C:\Users\manue\OneDrive\Documentos\QT POO\Parcial 2\Ejercicio2
+
+sqlite3.exe base.sqlite
+
+.open base.sqlite
+
+CREATE TABLE usuarios (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    usuario TEXT NOT NULL,
+    clave TEXT NOT NULL,
+    nombre TEXT NOT NULL,
+    apellido TEXT NOT NULL
+);
+
+INSERT INTO usuarios (usuario, clave, nombre, apellido) VALUES ('admin', '81dc9bdb52d04dc20036dbd8313ed055', 'Manuel', 'Nicolais');
+clave = 1234
+
+INSERT INTO usuarios (usuario, clave, nombre, apellido) VALUES ('manu', 'b59c67bf196a4758191e42f76670ceba', 'Franco', 'Nicolais');
+clave = 1111
+
+select * from usuarios;
+
+.quit
