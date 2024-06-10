@@ -1,0 +1,27 @@
+sqlite3 test
+
+create table usuarios (
+    id integer primary key,
+    usuario varchar(30),
+    clave varchar(30),
+    nombre varchar(50),
+    apellido varchar(50),
+    mail varchar(50)
+);
+
+insert into usuarios (usuario, clave,   nombre, apellido, mail) 
+values ('cgomez', '1234', 'Carlos', 'Gomez', 'cgomez@gmail.com');
+
+insert into usuarios (usuario, clave,   nombre, apellido, mail) 
+values ('mgomez', '4679', 'Marti', 'Gomez', 'mgomez@gmail.com');
+
+insert into usuarios (usuario, clave,   nombre, apellido, mail) 
+values ('dabril', '2345', 'David', 'Abril', 'dabril@gmail.com');
+
+insert into usuarios (usuario, clave,   nombre, apellido, mail) 
+values ('fmanuel', '1111', 'Manuel', 'Nicolais', 'fnicolais@gmail.com');
+
+
+select * from usuarios;
+
+.exit
