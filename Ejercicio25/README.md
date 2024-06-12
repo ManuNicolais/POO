@@ -7,3 +7,8 @@ Usar SQLite con AdminDB como singleton.
 Cuando un usuario válido ingresa correctamente se mostrará otra ventana que visualizará todos los usuarios cargados en la base.
 Para la visualización de los usuarios se puede usar QTreeWidget. Agregar la funcionalidad para que en esta misma ventana se puedan editar los campos como si fuera una planilla tipo excel.
 Seguir las recomendaciones que se comentaron durante el dictado de clases para construir las clases.
+
+##modo de uso
+-registrar un usuario antes de comenzar. (ya existe un usuario llamado "admin" con clave "1234"
+-en el registro se deben completar todos los cambios
+-luego de ingresar un usuario se pueden ver los usuarios cargados en la ventana "Usuarios"
