@@ -1,3 +1,4 @@
 # POO
+programacion orientada a objetos
 
-Ejercicios de QT Creator
+Ejercicios utilizado QT Creator y alguna implementación con API del Clima
